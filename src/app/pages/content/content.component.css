@@ -1,0 +1,43 @@
+.container__content {
+  width: 100%;
+  height: 100vh; /** vh não deu certo*/
+
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+/*
+.content__cover {
+  border: 1px solid gray;
+  margin: 5px;
+}
+*/
+.content__cover > img {
+  border: 5px solid rgb(145, 145, 145);
+  border-radius: 5px;
+  width: 500px;
+  min-width: 500px;
+  height: 300px;
+}
+
+.content__description {
+  margin-top: 15px;
+}
+.content__description > p {
+  color: rgb(198, 197, 197);
+  margin-top: 20px;
+}
+
+.content__description > a {
+  text-decoration: double;
+  margin: 5px;
+}
+
+.content__description > a:hover {
+  background-color: rgba(211, 211, 211, 0.404); /* Adicione o estilo desejado ao passar o mouse sobre o link */
+  color:rgb(214, 250, 8);
+  font-weight: bolder;
+}
