@@ -1,8 +1,16 @@
 
 .container__menu-bar > ul{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container__menu-bar > ul{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-size: large;
+  font-style: oblique;
+  font-weight: 400;
+  letter-spacing: 7px;
 }
 .container__menu-bar > ul > li{
   margin-right: 20px;

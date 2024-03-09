@@ -33,11 +33,6 @@ export class ContentComponent implements OnInit{
     this.photoCover = result.photoCover
 
     console.log(result)
-
-    /*this.contentTitle = result.title
-    result
-    if(!result){
-    }*/
   }
 
 }
